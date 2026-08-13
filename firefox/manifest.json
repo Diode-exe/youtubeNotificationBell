@@ -7,7 +7,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "youtube-notification-expander",
+      "id": "youtube-notification-expander@example.com",
       "data_collection_permissions": {
         "required": ["none"]
       }
