@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
 // @description  Replaces 9+ in the YouTube notification bell with the actual number
-// @author       Diode-exe
+// @author       Diode-exe on GitHub
 // @match        *://*.youtube.com/*
 // @grant        none
 // @run-at       document-start
