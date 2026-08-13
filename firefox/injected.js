@@ -11,7 +11,7 @@
 
         if (badge && badge.textContent.trim() !== String(number)) {
             badge.textContent = number;
-            console.log('[YTBell] Modified badge number to:', number);
+            console.log('[YTExpand] Modified badge number to:', number);
         }
     }
 
@@ -50,11 +50,11 @@
 
                 if (count !== undefined) {
                     latestCount = count;
-                    console.log('[YTBell] Actual unseen count:', latestCount);
+                    console.log('[YTExpand] Actual unseen count:', latestCount);
                     modifyBadge(latestCount);
                 }
             } catch (err) {
-                console.error('[YTBell] Failed to parse notification JSON:', err);
+                console.error('[YTExpand] Failed to parse notification JSON:', err);
             }
         }
 
@@ -69,7 +69,7 @@
 
         const originalFetch = window.fetch;
         if (typeof originalFetch !== 'function') {
-            console.warn('[YTBell] window.fetch is unavailable.');
+            console.warn('[YTExpand] window.fetch is unavailable.');
             return;
         }
 
@@ -78,7 +78,7 @@
         };
 
         startObserver();
-        console.log('[YTBell] Page hook initialized on:', window.location.href);
+        console.log('[YTExpand] Page hook initialized on:', window.location.href);
     }
 
     init();

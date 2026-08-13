@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Youtube Notification Expander",
-  "version": "1.0-preview",
+  "version": "1.0",
 
   "description": "Replaces 9+ in the YouTube notification bell with the actual number",
 

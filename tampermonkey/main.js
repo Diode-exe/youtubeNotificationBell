@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         YouTube Notification Number
+// @name         YouTube Notification Expander
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
 // @description  Replaces 9+ in the YouTube notification bell with the actual number
