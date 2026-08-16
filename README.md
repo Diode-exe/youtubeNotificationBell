@@ -16,7 +16,7 @@ After installing the extension, it looks like this:
 
 #### Add-on Store
 
-[https://addons.mozilla.org/en-CA/android/addon/youtube-notification-expander/](Add-on Store page)
+[Add-on Store page](https://addons.mozilla.org/en-CA/android/addon/youtube-notification-expander/)
 
 #### Manual Installation (not recommended)
 
