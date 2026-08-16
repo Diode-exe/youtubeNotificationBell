@@ -14,7 +14,13 @@ After installing the extension, it looks like this:
 
 ### Firefox
 
-It hasn't been approved by Mozilla yet, so you will have to install it manually. You can download the latest version from Releases. After downloading, unzip the .zip file, go to `about:debugging` in Firefox, click "This Firefox", then "Load Temporary Add-on", and select the `manifest.json` file from .zip/firefox/manifest.json.
+#### Add-on Store
+
+[https://addons.mozilla.org/en-CA/android/addon/youtube-notification-expander/](Add-on Store page)
+
+#### Manual Installation (not recommended)
+
+You can download the latest version from Releases. After downloading, unzip the .zip file, go to `about:debugging` in Firefox, click "This Firefox", then "Load Temporary Add-on", and select the `manifest.json` file from .zip/firefox/manifest.json. 
 
 ### Tampermonkey
 
