@@ -4,7 +4,7 @@
     let latestCount = null;
 
     function modifyBadge(number) {
-        if (number === null || number === undefined) return;
+        if (number == null) return;
 
         const badge = document.querySelector('.ytSpecIconBadgeShapeBadge')
             || document.querySelector('ytd-notification-topbar-button-renderer .yt-spec-icon-badge-shape__badge');
